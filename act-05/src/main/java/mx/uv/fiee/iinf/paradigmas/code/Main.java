@@ -1,7 +1,9 @@
 package mx.uv.fiee.iinf.paradigmas.code;
 
 public class Main {
-    static void main() {
+    public static void main(String[] args) {
+
+        Film[] filmVector = new Film[10];
 
         var myCol = new MyMarvelCollection (filmVector);
         myCol.add (new Film ("Ironman", 2008));
@@ -15,7 +17,7 @@ public class Main {
 
         for (var film: myCol) {
             System.out.println (film);
-        }
+  }
 
     }
 }
