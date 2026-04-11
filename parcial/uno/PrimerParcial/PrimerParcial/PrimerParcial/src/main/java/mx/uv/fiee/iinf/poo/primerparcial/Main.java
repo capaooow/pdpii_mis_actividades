@@ -7,7 +7,7 @@ public class Main {
     public static void main (String [] args) {
         System.out.println ("-------------From File--------------------");
         
-        File file = new File ("C:\\colors.json");
+        File file = new File ("/home/powoka/Documentos/colors.json");
         Dictionary<File> dicFromFile = new Dictionary<> ();
         dicFromFile.parse (file);
         
